@@ -6,8 +6,6 @@ export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
 	base: '/SIMEP/',
-			build: {
-        chunkSizeWarningLimit: 2000, 
       },
       server: {
         port: 3000,
